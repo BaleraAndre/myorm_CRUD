@@ -5,7 +5,6 @@ import { User } from '../model/ent/user';
 export default class Context extends PGDBContext
 {
     public users : PGDBSet<User>;
-    ;
 
     constructor(manager : PGDBManager)
     {
@@ -14,3 +13,7 @@ export default class Context extends PGDBContext
          
     }
 }
+
+
+
+
